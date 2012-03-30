@@ -1,0 +1,6 @@
+/*　コメント表示関係のCSS　*/
+.comment {
+	width : 400px;
+	padding : 5px;
+	display : none;
+}

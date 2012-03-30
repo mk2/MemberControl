@@ -1,0 +1,120 @@
+/*　トップページ表示関係のCSS　*/
+#bodyid{
+background:#fafaff;
+padding:0;
+margin:0;
+text-align:center;
+}
+#page{
+background:#fff url('img/bg.png') repeat-y left top;
+width:720px;
+margin:0 auto;
+}
+#page2{
+border:1px solid #777;
+background:#fff;
+width:700px;
+font-size:0.8em;
+color:#444;
+text-align:center;
+margin:0 auto;
+}
+#banner{
+background:#001545 url('img/banbg.png') no-repeat left top;
+height:50px;
+letter-spacing:2px;
+text-align:left;
+}
+#banner h1{
+font-size:24px;
+color:#fff;
+margin:0;
+padding:10px 20px;
+}
+#menu{
+background:#001545 url('img/menubg.png') no-repeat left top;
+border-bottom:1px solid #999;
+width:100%;
+}
+#menu td{
+height:20px;
+font-size:13px;
+width:20%;
+letter-spacing:1px;
+text-align:center;
+}
+#menu a{
+color:#fff;
+font-weight:bold;
+width:100%;
+text-decoration:none;
+}
+#menu a:hover{
+color:#97a6d0;
+}
+#left{
+width:206px;
+float:left;
+text-align:left;
+padding:0 0 10px 0;
+}
+#left a{
+color:#00497c;
+}
+#left a:hover{
+color:#4455b6;
+}
+#left h2{
+border:1px solid #999;
+background:#4169ad url('img/side.png') no-repeat left top;
+font-size:1em;
+margin:10px 0 7px 10px;
+padding:3px 10px;
+color:#fff;
+}
+#left p{
+margin:0 0 2px 10px;
+padding:0 10px 7px 10px ;
+font-size:1em;
+color:#444;
+}
+#right{
+width:480px;
+float:right;
+padding:0 0 10px 0;
+text-align:left;
+}
+#right a{
+color:#00497c;
+}
+#right a:hover{
+color:#4455b6;
+}
+#right h2{
+border-width:1px;
+border-style:solid;
+border-color:#ddf #aac #aac #ddf;
+background:url('img/mainbg.png') repeat-y left top;
+color:#446;
+font-size:1em;
+margin:10px 10px 7px 0;
+padding:3px 10px;
+}
+#right p{
+margin:0 10px 2px 0;
+padding:0 10px 7px 10px;
+font-size:1em;
+line-height:120%;
+}
+#pagetop{
+padding:10px 12px 0 0;
+text-align:right;
+}
+#copy{
+clear:both;
+background:#001545 url('img/banbg.png') no-repeat left top;
+border-top:1px solid #666;
+color:#fff;
+padding:1px 0 3px 0;
+text-align:center;
+}
